@@ -1,6 +1,6 @@
 void main() {
   print('emirhan gözcü');
-  print('emirhan\'in dersi başladı.');
+  print('emirhan\'in dersi başlamış.');
   print("emirhan'in dersleri");
   print('emirhan ' + 'gözcü');
   print('`emirhan gözcü`');
