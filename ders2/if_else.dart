@@ -62,7 +62,6 @@ void main() {
   print("*************************************************");
 
   int benim_yas = 20;
-  double sicaklik = 21.5;
   String benim_kullanici_adi = "mustafa11";
   String benim_sifre = "12345";
 
