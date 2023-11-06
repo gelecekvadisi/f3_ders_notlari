@@ -1,1 +1,1 @@
-# f3_ders_notlari
+Flutter Eğitimi F3 Sınıfı derste işlenen kodlar
