@@ -82,4 +82,47 @@ void main() {
   } else {
     print("Girmiş olduğunuz yaş bilgisi hatalıdır. Lütfen Kontrol ediniz.");
   }
+
+  print("-------------------------------");
+
+  double sicaklik = 10.5; //kesirli sayılar
+  bool isWearCoat = true; //montu giymedik
+
+  if (sicaklik >= 30) {
+    print("Hava bugün sıcak");
+  } else if (sicaklik > 20 && sicaklik < 30) {
+    print("Bugün hava biraz ılıman, dikkatli olmak gerek");
+  } else if (sicaklik > 10 && sicaklik < 20) {
+    print("Hava bugün yağmurlu ve soğuk. Montunu giydin mi?");
+    if (isWearCoat) {
+      print("Tebrikler. Hazırlıksın");
+    } else {
+      print("Montunu alman gerekliydi.");
+    }
+  }
+
+  print("----------------------");
+
+  int sayi4 = 9;
+  int sayi5 = 6;
+  int kucukSayi;
+
+  if (sayi5 > sayi4) {
+    kucukSayi = sayi4;
+  } else {
+    kucukSayi = sayi5;
+  }
+  //Ternary if
+  sayi4 < sayi5 ? kucukSayi = sayi4 : sayi5;
+  kucukSayi = sayi4 < sayi5 ? sayi4 : sayi5;
+  print("Küçük sayı : $kucukSayi");
+
+  print("----------------------");
+  String ad = 'emir';
+  //print(ad.length);
+  String? soyad = null;
+  String? mesaj;
+
+  mesaj = ad ?? soyad;
+  print(mesaj);
 }
