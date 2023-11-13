@@ -8,7 +8,7 @@
             "name": "Dart & Flutter",
             "request": "launch",
             "type": "dart",
-            "program": "ders2/for.dart"
+            "program": "${file}"
         }
     ]
 }
