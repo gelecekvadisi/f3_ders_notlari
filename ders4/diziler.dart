@@ -42,5 +42,4 @@ void main() {
     oAnkiEleman -= 10;
     print(oAnkiEleman);
   }
-  //-----------------DİNAMİK BÜYÜYEN LİSTELER----------------
 }
